@@ -136,9 +136,8 @@ exports.login = async (req, res) => {
 				{ email: user.email, id: user._id },
 
 				process.env.JWT_SECRET,
-				{
-					expiresIn: "24h",
-				}
+				
+				{expiresIn: "24h"}
 			);
 
 			
