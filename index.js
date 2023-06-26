@@ -15,7 +15,7 @@ const cors = require("cors");
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"http://localhost:3000",
+		origin:"https://random-gif-generator-f.netlify.app",
 		credentials:true,
 	})
 )
